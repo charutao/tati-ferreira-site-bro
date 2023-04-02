@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #6c0e0b 16.62%, #BE947C 85.61%);
+}
+
+ .cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    padding: 32px;
+
+ }
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #6c0e0b;
+ }
+ 
+ .cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    text-decoration: none;
+   justify-content: flex-end;
+ }
+ 
+ .tatiane{
+   padding-left: 20px;
+ }
+
+ .serviços{
+   padding-left: 20px;
+ }
+
+ footer{
+  align-items: center;
+  flex-direction: row;
+ }

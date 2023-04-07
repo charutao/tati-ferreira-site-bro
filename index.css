@@ -11,7 +11,7 @@
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, #6c0e0b 16.62%, #BE947C 85.61%);
+    background: linear-gradient(to right, #6c0e0b 16.62%, #BE947C 85.61%);
 }
 
  .cabecalho{
@@ -30,11 +30,8 @@ img{
     border: 5px solid #6c0e0b;
  }
  
- .cabecalho-menu{
-    display: flex;
-    gap: 32px;
-    text-decoration: none;
-   justify-content: flex-end;
+ .links{
+ text-decoration: none;
  }
  
  .tatiane{
@@ -48,4 +45,10 @@ img{
  footer{
   align-items: center;
   flex-direction: row;
+ }
+
+ .rodape texto{
+  display: flex;
+  align-items: center;
+
  }

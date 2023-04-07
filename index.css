@@ -12,6 +12,7 @@
 body{
     font-size: 100%;
     background: linear-gradient(to right, #6c0e0b 16.62%, #BE947C 85.61%);
+    padding-left: 10px;
 }
 
  .cabecalho{
@@ -29,10 +30,8 @@ img{
     border-radius: 50%;
     border: 5px solid #6c0e0b;
  }
+
  
- .links{
- text-decoration: none;
- }
  
  .tatiane{
    padding-left: 20px;
@@ -42,12 +41,22 @@ img{
    padding-left: 20px;
  }
 
+a {
+  text-decoration: none;
+  color: rgb(199, 199, 199);
+
+} 
+
+nav a:hover{
+  color:#6c0e0b;
+}
+
  footer{
   align-items: center;
   flex-direction: row;
  }
 
- .rodape texto{
+ .rodape{
   display: flex;
   align-items: center;
 

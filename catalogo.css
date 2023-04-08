@@ -6,5 +6,23 @@
 
 }body{
     font-size: 100%;
-    background:linear-gradient(62.15deg,#6c0e0b 20% , #BE947C 82.88%);
+    background:linear-gradient(to right,#6c0e0b 20% , #BE947C 82.88%);
+}
+
+.item1{
+    align-items: center;
+    position: relative;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a:rover{
+    color: #6c0e0b;
 }

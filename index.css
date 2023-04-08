@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
 }
 
 body{
     font-size: 100%;
-    background: linear-gradient(to right, #6c0e0b 16.62%, #BE947C 85.61%);
-    padding-left: 10px;
+    background: #856255;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+   
 }
 
  .cabecalho{
@@ -21,30 +25,31 @@ body{
     align-items: center;
     justify-content: space-around; 
     padding: 32px;
-
+    font-family: Sarala;
  }
 
-img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid #6c0e0b;
- }
-
+.imagem1{
+  display: flex;
+  border-radius: 50% ;
+  border-color: solid, #BE947C;
+}
  
  
  .tatiane{
-   padding-left: 20px;
+   align-items: center;
+
  }
 
  .serviços{
    padding-left: 20px;
+   font-family: bree serif;
  }
 
 a {
   text-decoration: none;
   color: rgb(199, 199, 199);
-
+  text-decoration-style: none ;
+  justify-content: start;
 } 
 
 nav a:hover{
@@ -61,3 +66,58 @@ nav a:hover{
   align-items: center;
 
  }
+
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+ .titulo{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .sobre-mim{
+  font-family:bree serif;
+  display: flex;
+  flex-direction: column;
+ }
+  
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+ .instagram{
+  align-content: center;
+  color: black;
+ }
+
+.imagemespecial{
+flex-direction: center;
+}
+
+li{
+  display: inline-block;
+  margin: 20px;
+}
+
+.titulo2{
+  font-family: righteous;
+}
+
+.titulo3{
+  font-family: righteous;
+}
+
+#zapzap{
+  border: 2px solid #6c0e0b;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#zapzap:hover{
+  background-color: #6c0e0b;
+  color: white;
+}
